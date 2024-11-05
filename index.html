@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ejercicio en p5.js: Mover un Cuadro</title>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.0/p5.js"></script>
+    <style>
+      body {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        font-family: Arial, sans-serif;
+      }
+      #game-container {
+        margin-top: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>ejercicio en p5.js: Mover un Cuadro  </h1>
+    <p>Usa las flechas para moverte y la barra espaciadora para saltar.</p>
+    <p>Saltos realizados: <span id="jump-count">0</span></p>
+
+    <div id="game-container"></div>
+
+    <script src="sketch.js"></script>
+  </body>
+</html>
